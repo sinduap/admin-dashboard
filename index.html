@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <link rel="shortcut icon" href="favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="row">
+          <div class="search-bar">
+            <i class="ph-bold ph-magnifying-glass"></i>
+            <input class="search-bar__input" type="text" />
+          </div>
+          <div class="account">
+            <i class="ph-bold ph-bell-simple"></i>
+            <img
+              class="account__avatar bg-yellow"
+              src="images/sinduap.png"
+              alt="Sindu Andita"
+            />
+            <p class="account__name">Sindu Andita</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="account-info">
+            <img
+              class="account-info__avatar bg-yellow"
+              src="images/sinduap.png"
+              alt="Sindu Andita"
+            />
+            <p class="account-info__greeting">Hi there,</p>
+            <p class="account-info__name">Sindu Andita (@sinduap)</p>
+          </div>
+          <div class="actions">
+            <button class="btn btn--primary">New</button>
+            <button class="btn btn--primary">Upload</button>
+            <button class="btn btn--primary">Share</button>
+          </div>
+        </div>
+      </header>
+      <aside class="sidebar">
+        <header class="logo">
+          <img class="logo__image" src="images/screen.png" alt="Logo" />
+          <h1 class="logo__text">Dashboard</h1>
+        </header>
+        <nav>
+          <ul class="main-nav nav">
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-house-simple"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-user"></i>
+                Profile
+              </a>
+            </li>
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-chat"></i>
+                Messages
+              </a>
+            </li>
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-clock"></i>
+                History
+              </a>
+            </li>
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-check"></i>
+                Task
+              </a>
+            </li>
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-users-three"></i>
+                Communities
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <nav>
+          <ul class="misc-nav nav">
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-gear-six"></i>
+                Settings
+              </a>
+            </li>
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-question"></i>
+                Support
+              </a>
+            </li>
+            <li>
+              <a class="nav__item" href="#">
+                <i class="ph-fill ph-lock-key"></i>
+                Privacy
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+      <main class="main">
+        <article class="project">
+          <h1 class="project__heading">Your Projects</h1>
+          <div class="project__box">
+            <article class="project-item">
+              <h2 class="project-item__heading">Super Cool Project</h2>
+              <p class="project-item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet doloremque impedit odio atque magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsam!</p>
+              <div class="project-item__actions">
+                <i class="ph-bold ph-star"></i>
+                <i class="ph-bold ph-eye"></i>
+                <i class="ph-bold ph-link-simple"></i>
+              </div>
+            </article>
+            <article class="project-item">
+              <h2 class="project-item__heading">Less Cool Project</h2>
+              <p class="project-item__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, ipsum? Culpa, necessitatibus? Quo explicabo reiciendis natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsam!</p>
+              <div class="project-item__actions">
+                <i class="ph-bold ph-star"></i>
+                <i class="ph-bold ph-eye"></i>
+                <i class="ph-bold ph-link-simple"></i>
+              </div>
+            </article>
+            <article class="project-item">
+              <h2 class="project-item__heading">Impossible App</h2>
+              <p class="project-item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet doloremque impedit odio atque magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsam!</p>
+              <div class="project-item__actions">
+                <i class="ph-bold ph-star"></i>
+                <i class="ph-bold ph-eye"></i>
+                <i class="ph-bold ph-link-simple"></i>
+              </div>
+            </article>
+            <article class="project-item">
+              <h2 class="project-item__heading">Easy Peasy App</h2>
+              <p class="project-item__description">Culpa, necessitatibus? Quo explicabo reiciendis natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsam!</p>
+              <div class="project-item__actions">
+                <i class="ph-bold ph-star"></i>
+                <i class="ph-bold ph-eye"></i>
+                <i class="ph-bold ph-link-simple"></i>
+              </div>
+            </article>
+            <article class="project-item">
+              <h2 class="project-item__heading">Ad Blocker</h2>
+              <p class="project-item__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet doloremque impedit odio atque magni. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsam!</p>
+              <div class="project-item__actions">
+                <i class="ph-bold ph-star"></i>
+                <i class="ph-bold ph-eye"></i>
+                <i class="ph-bold ph-link-simple"></i>
+              </div>
+            </article>
+            <article class="project-item">
+              <h2 class="project-item__heading">Money Maker</h2>
+              <p class="project-item__description">Culpa, necessitatibus? Quo explicabo reiciendis natus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, ipsam!</p>
+              <div class="project-item__actions">
+                <i class="ph-bold ph-star"></i>
+                <i class="ph-bold ph-eye"></i>
+                <i class="ph-bold ph-link-simple"></i>
+              </div>
+            </article>
+          </div>
+        </article>
+        <article class="announcement">
+          <h1 class="announcement__heading">Announcements</h1>
+          <div class="announcement__box">
+            <article class="announcement__item">
+              <header>
+                <h2 class="announcement__item-heading">Site Maintenance</h2>
+              </header>
+              <p>
+                Lorem ipsum dolor sit amet elit consectetur adipisicing elit nequ. Eveniet
+                sapiente mollitia qui netur.
+              </p>
+            </article>
+            <article class="announcement__item">
+              <header>
+                <h2 class="announcement__item-heading">Community Share Day</h2>
+              </header>
+              <p>
+                Lorem ipsum, dolor sit amet locus adipisicing elit.
+                Exercitationem ad. Lorem ipsum dolor sit amet.
+              </p>
+            </article>
+            <article class="announcement__item">
+              <header>
+                <h2 class="announcement__item-heading">
+                  Updated Privacy Policy
+                </h2>
+              </header>
+              <p>
+                 Officia nihil illum, a explicabo sit asperiores exercitationem. Lorem, ipsum dolor.
+            </article>
+          </div>
+        </article>
+        <article class="trending">
+          <h1 class="trending__heading">Trending</h1>
+          <div class="trending__box">
+            <article class="trending__item">
+              <img class="trending__avatar bg-red" src="images/woman.png" alt="woman">
+              <h3 class="trending__username">@megan</h3>
+              <p class="trending__description">World Peace Builder</p>
+            </article>
+            <article class="trending__item">
+              <img class="trending__avatar bg-yellow" src="images/sinduap.png" alt="">
+              <h3 class="trending__username">@sinduap</h3>
+              <p class="trending__description">Super Cool Project</p>
+            </article>
+            <article class="trending__item">
+              <img class="trending__avatar bg-green" src="images/moslem-woman.png" alt="moeslem-woman">
+              <h3 class="trending__username">@kendall</h3>
+              <p class="trending__description">Life Changing App</p>
+            </article>
+            <article class="trending__item">
+              <img class="trending__avatar bg-purple" src="images/man.png" alt="man">
+              <h3 class="trending__username">@alex</h3>
+              <p class="trending__description">No Traffic Maker</p>
+            </article>
+          </div>
+        </article>
+          </div>
+        </article>
+      </main>
+    </div>
+  </body>
+</html>
